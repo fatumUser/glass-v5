@@ -1415,13 +1415,15 @@ header .burger {
   }
 }
 .section-faq {
-  max-width: 804px;
+  max-width: 1080px;
   margin-top: 120px;
 }
 .section-faq .title-section {
   text-align: center;
 }
 .section-faq .container {
+  max-width: 804px;
+  margin: 0 auto;
   margin-top: 40px;
 }
 .section-faq .container .row {
