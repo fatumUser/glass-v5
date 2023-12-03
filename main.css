@@ -2048,6 +2048,7 @@ footer .wrap-logo {
   width: 100%;
   height: 100%;
   background: rgb(0, 0, 0);
+  z-index: 10000;
 }
 .hidden-screen-saver {
   opacity: 0;
@@ -2067,7 +2068,14 @@ footer .wrap-logo {
   transition-duration: 1s;
   margin-top: 400px !important;
 }
-
+@media only screen and (max-width: 768px) {
+  .screen-saver .logo {
+    margin-top: 200px;
+  }
+  .margin-screen-saver-logo {
+    margin-top: 300px !important;
+  }
+}
 .screen-saver-logo-animation {
   
 }
