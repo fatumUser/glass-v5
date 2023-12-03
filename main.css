@@ -2070,6 +2070,7 @@ footer .wrap-logo {
 }
 @media only screen and (max-width: 768px) {
   .screen-saver .logo {
+	  width: 100px;
     margin-top: 200px;
   }
   .margin-screen-saver-logo {
