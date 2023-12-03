@@ -2041,3 +2041,39 @@ footer .wrap-logo {
     line-height: 23px;
   }
 }
+
+.screen-saver {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+}
+.hidden-screen-saver {
+  opacity: 0;
+  transition-property: all;
+ /* transition-delay: 1.5s; */
+  transition-duration: 1.5s;
+}
+.z-index-screen-saver {
+   z-index: -1000;
+}
+.screen-saver .logo {
+  margin: auto;
+  margin-top: 300px;
+}
+.margin-screen-saver-logo {
+  transition-property: margin-top;
+  transition-duration: 1s;
+  margin-top: 400px !important;
+}
+
+.screen-saver-logo-animation {
+  
+}
+.screen-saver-logo-animation2 {
+  width: 150px;
+  transition-property: width;
+  transition-delay: 2s;
+  transition-duration: 1s;
+}
