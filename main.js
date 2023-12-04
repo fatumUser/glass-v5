@@ -17,16 +17,19 @@ function fullImgDeliveryClose() {
     document.getElementById("full-img-delivery").classList.remove("full-img-show");
     document.getElementById("body").classList.remove("body-no-scroll");
 }
-setTimeout(screenSaver, 1800);
-setTimeout(screenSaverZindex, 2800);
-setTimeout(screenSaverMargin, 50);
+setTimeout(screenSaver, 3800);
+setTimeout(screenSaverZindex, 4800);
+setTimeout(screenSaverLogo1Transform, 1000);
+setTimeout(screenSaverLogo2Show, 1400);
 function screenSaver() {
   document.getElementById("screen-saver").classList.add("hidden-screen-saver");
 }
 function screenSaverZindex() {
     document.getElementById("screen-saver").classList.add("z-index-screen-saver");
   }
-  function screenSaverMargin() {
-    document.getElementById("screen-saver-logo").classList.add("margin-screen-saver-logo");
+  function screenSaverLogo1Transform() {
+    document.getElementById("logo-1").classList.add("screen-saver-logo-1-hidden");
   }
-  
+  function screenSaverLogo2Show() {
+    document.getElementById("logo-2").classList.add("screen-saver-logo-2-show");
+  }
